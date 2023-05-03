@@ -7,8 +7,8 @@
 "use strict"
 
 function calculate() {
-  let usertype = document.getElementById("type").value
-  let userfood = document.getElementById("food").value
+  let usertype = document.getElementById("Utype").value
+  let userfood = document.getElementById("Ufood").value
 
   let moviePrice = 0
   let foodPrice = 0
@@ -22,7 +22,7 @@ function calculate() {
   } else if (usertype == "Comedy") {
     moviePrice = 43.0
   } else {
-    document.getElementById("type").innerHTML = "Error"
+    document.getElementById("Utype").innerHTML = "Error"
   }
 
   if (userfood == "Popcorn") {
@@ -32,7 +32,7 @@ function calculate() {
   } else if (userfood == "Chip") {
     foodPrice = 5.0
   } else {
-    document.getElementById("food").innerHTML = "Error"
+    document.getElementById("Ufood").innerHTML = "Error"
   }
 
   let totalPrice = moviePrice + foodPrice
