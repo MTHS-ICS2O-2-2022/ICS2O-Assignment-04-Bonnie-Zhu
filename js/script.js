@@ -7,8 +7,8 @@
 "use strict"
 
 function calculate() {
-  let usertype = document.getElementById("type").value
-  let userfood = document.getElementById("food").value
+  let usertype = document.getElementById("type-container").value
+  let userfood = document.getElementById("food-container").value
 
   let moviePrice = 0
   let foodPrice = 0
